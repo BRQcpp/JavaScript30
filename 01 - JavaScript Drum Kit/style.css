@@ -6,7 +6,7 @@
 body {
     align-items: center;
     font-family: 'Roboto Condensed', sans-serif;
-    background-image: url(background.jpg);
+    background-image: url(graphics/background.jpg);
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -30,8 +30,8 @@ body {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    height: 100px;
-    width: 100px;
+    height: 130px;
+    width: 130px;
     transition: 0.2s;
 }
 
@@ -52,4 +52,11 @@ body {
     -webkit-box-shadow: 0px 0px 30px 5px rgba(23, 36, 123, 1);
     -moz-box-shadow: 0px 0px 30px 5px rgba(23, 36, 123, 1);
     box-shadow: 0px 0px 30px 5px rgba(23, 36, 123, 1);  
+}
+
+button {
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 0;
+    margin: 0;
 }
